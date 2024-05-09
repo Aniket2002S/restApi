@@ -1,0 +1,23 @@
+rest api design - json data who deal with user
+
+
+Get/users - html doc render (HTML)
+
+
+json format 
+
+GET /api/users - list all users
+
+GET /api/users/1 - get user with id 1
+GET /api/users/2 - get user with id 2
+
+dynamic path parametre 
+GET /api/users/:id
+:id -> varible 
+
+POST /api/ users - create new users
+
+PATCH /api/users/1 - edit the user with id 1
+DELETE /api/users/1 - Delete the user with id 1
+
+mockarro.com it generatuing fake data 
